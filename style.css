@@ -1,0 +1,78 @@
+.mainFeatures{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
+  margin-top: 20px;;
+
+}
+
+
+.mainFeatures>a{
+margin: 10px;
+  padding: 10px;
+  width: 30%;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.mainFeatures .return{
+  align-self: flex-start;
+  margin: 5px;
+  padding: 10px;
+  width: 8%;
+  font-size: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#responseContainer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+table{
+  font-size: 25px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* .container{
+  margin-top:100px;
+
+} */
+
+.formContainer{
+  max-width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.formContainer label{
+  font-size: 20px;
+}
+
+.formContainer input{
+  width: 400px;
+}
+.navigateSignup{
+  display: block;
+}
+
+.login{
+  margin-top:10px;
+  font-size: 25px;
+}
+
+.signup{
+  margin-top:10px;
+  font-size: 25px;
+}
